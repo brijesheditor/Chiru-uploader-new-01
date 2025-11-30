@@ -54,7 +54,7 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="tg://user?id=6344648593"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Oye_brijesh"),
             InlineKeyboardButton(text="🔍 Channel", url="https://t.me/+qutXY5xbN0I4OWY1"),
         ],
     ]
@@ -90,9 +90,9 @@ async def start_command(bot: Client, message: Message):
     
     # Caption for the image
     caption = ("""
-<blockquote>🌟 <b>Welcome Buddy....! ☠️!</b> 🌟</blockquote><br><br>
+<blockquote>🌟 <b>Welcome 𝄟✮͢🦋⃟≛⃝𝑩𝕣ΐ𝕛℮𝚜Ꮒ✮⃝🩷....! ☠️!</b> 🌟</blockquote><br><br>
 
-/help <b>to know about all the commonds</b> 📄 <br><br>
+/guide <b>to know about all the commonds</b> 📄 <br><br>
 <b>Contact Me</b> [𝐌𝐑 𝐁𝐑𝐈𝐉𝐄𝐒𝐇 😇 👑](tg://user?id=6344648593)<b>to Get The Subscription</b> 🎫<br>
 """)
     await asyncio.sleep(1)
@@ -141,7 +141,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-YOUR_ADMIN_ID = 7517045929
+YOUR_ADMIN_ID = 6344648593
 
 # Function to read subscription data
 def read_subscription_data():
